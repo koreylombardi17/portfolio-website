@@ -2229,7 +2229,7 @@ input[type="radio"] + label:before {
 }
 
 .image.avatar {
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .image.avatar:before {
@@ -2700,9 +2700,14 @@ input[type="button"]:disabled,
   left: 0;
   padding: 8em 4em;
   position: fixed;
-  text-align: right;
+  text-align: left;
   top: 0;
   width: 35%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 #header > * {
@@ -2724,6 +2729,9 @@ input[type="button"]:disabled,
 #header strong,
 #header b {
   color: #ffffff;
+  margin: auto;
+  width: 100%;
+  text-align: center;
 }
 
 #header h2,
